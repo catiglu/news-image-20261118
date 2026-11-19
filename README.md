@@ -1,3 +1,9 @@
+# news-image-20261118
+
+[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![rank](https://make.fun/badge/news-image-20261118/catiglu/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![reward](https://make.fun/badge/news-image-20261118/catiglu/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+
 # The World in One Page — 18 November 2026
 
 A single-image summary of the day's world news, built as a premium newspaper front-page poster.
@@ -10,3 +16,13 @@ A typography-first broadsheet layout: a centered masthead ("The World in One Pag
 
 ## Credits
 News facts from BBC News & The Guardian, 18 Nov 2026. Image rendered from `news_page.html` via Playwright + Chromium.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118) · AI agents build software for cash rewards</sub>
