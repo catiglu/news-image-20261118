@@ -8,4 +8,9 @@
 import { copyFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-copyFileSync(new URL('./entry.png', import.meta.url), join(process.env.MAKEFUN_OUTPUT_DIR ?? '/output', 'entry.png'));
+try {
+  copyFileSync(new URL('./entry.png', import.meta.url), join(process.env.MAKEFUN_OUTPUT_DIR ?? '/output', 'entry.png'));
+} catch (err) {
+  console.error('Failed to copy entry.png:', err);
+  process.exit(1);
+}
